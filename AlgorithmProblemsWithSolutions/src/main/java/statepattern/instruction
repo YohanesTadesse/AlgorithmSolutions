@@ -1,0 +1,12 @@
+State pattern can improve our application when we have different behavior in
+different states.
+
+The requirements for the solution are:
+1. The new CeilingFan class should be independent of the states (also for the start state). If I
+add a new state, then I don’t need to modify the CeilingFan class.
+2. The different states themselves are responsible for creating and setting the next state. This
+means that the business rule deciding the next state, is implemented in the states
+themselves. This also means that the Application class only knows about the start state.
+3. The output of your modified application should be exactly the same as the given output of
+the given application.
+4. There should be no if-then-else structure in your code for the ceiling fan.

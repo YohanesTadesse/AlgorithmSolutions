@@ -32,7 +32,6 @@ Internally you can think of this:
 
 public class RemoveDuplicates1 {
     public int removeDuplicatesSolution(final int[] nums) {
-
        return (int) IntStream.of(nums).distinct().count();
     }
 
