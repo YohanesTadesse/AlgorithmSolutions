@@ -1,4 +1,4 @@
-package statepattern.Solution3;
+package statepattern.Solution4;
 
 public interface State {
     void green();
